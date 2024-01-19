@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  background-color: #eee;
+  width: 100%;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  top: 0;
+  position: sticky;
+  background-color: #eee;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+    width: 300px;
+    height: auto;    
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+  align-items: center;
+}
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  margin-bottom: 50px;
+}
+h1 {
+  margin-top: 16px;
+  font-size: 1.5em;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+input[type="submit"] {
+  padding: 8px;
+  font-size: 1.05em;
+  font-weight: 800;
+}
+
+input[type="email"] {
+  padding: 4px;
+  border: 1px solid black; 
+}
+
+#features {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 50px;
+}
+
+.features__list {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+i {
+  font-size: 3em;
+  color: darkorange;
+}
+
+button, input[type="submit"] {
+  background-color: #f1c40f;
+  text-transform: uppercase;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: orange;
+}
+
+#video {
+  width: 560px;
+  margin-bottom: 50px;
+}
+
+.pricing__table {
+  display: flex;
+  gap: 32px;
+  width: 95%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pricing__item {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 1em;
+}
+
+.pricing__item--title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 16px;
+  background-color: #ddd;
+}
+
+.pricing__item--price {
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+.pricing__item > ul > li {
+  margin-bottom: 16px;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  align-self: center;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
+
+footer {
+  background-color: #ddd;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+.footer__links {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.footer__copyright {
+  font-size: 0.95em;
+  color: #999;
+}
